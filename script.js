@@ -1,9 +1,9 @@
 var audio = new Audio("assets/sentmessage.mp3");
 var contactString =
   "<div class='social'> <a href='mailto:tsuryansh5@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Tsurya06'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a href='https://www.linkedin.com/in/suryakant-tripathi-9649a8191/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString =
-  "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Suryakant_Tripathi_resume.pdf</label></div><a href='assets/Suryakant_Tripathi_Resume.pdf' download='Suryakant_Tripathi_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var addressString =
+  var resumeString =
+  "<div class='resumeContainer'><iframe class='blurred-pdf' src='https://drive.google.com/file/d/1vylOfca3_CUnu2E1EERSPzeMA_CxcLx-/preview' width='640' height='480' allow='autoplay'></iframe><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Suryakant_Tripathi_resume.pdf</label></div><a href='https://drive.google.com/uc?export=download&id=1vylOfca3_CUnu2E1EERSPzeMA_CxcLx-' download='Suryakant_Tripathi_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div></div>";
+    var addressString =
   "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8760.13797214269!2d83.54867467930363!3d27.1482149164779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996a9a0e4574cb5%3A0xeac3ec2ac456ac5f!2sShastri%20Nagar%2C%20Maharajganj%2C%20Uttar%20Pradesh%20273303!5e0!3m2!1sen!2sin!4v1724918516780!5m2!1sen!2sin' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div><label class='add'><address>Shastri Nagar<br>Ward No. 22<br>Maharajganj, Uttar Pradesh, INDIA 273303</address>";
 
 function startFunction() {

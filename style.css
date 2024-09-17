@@ -348,6 +348,12 @@ footer{
     color: #8696a0;
   }
 
+  .blurred-pdf {
+    filter: blur(5px);
+    width: 100%;
+    height: 350px;
+    pointer-events: none; 
+  }
 
 
 @media screen and (min-width: 1024px) {
